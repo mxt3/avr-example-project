@@ -1,0 +1,8 @@
+# Project extra configuration for clangd
+# See https://clangd.llvm.org/config
+
+# this allows to modify CompileFlags after parsing of compile_commands.json
+# Note: only put flags exclusivly for linting. Flags also involved in compiling
+# should go in CMakeLists.txt
+CompileFlags:
+  Add: [-isystem, 'C:\Users\Maxime\Documents\Test, Tools & Examples\avr\avr-gcc-7.2.0-x86-mingw\avr\include']
