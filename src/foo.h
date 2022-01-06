@@ -1,0 +1,2 @@
+
+void setOuput( bool value );
