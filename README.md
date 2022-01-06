@@ -56,7 +56,7 @@ separated in a different repo because it will possibly undergo many iterations.
 ## Linting configuration
 
 The CMake build script generates a `conpilation_database.json` under `build/`.
-IDEs and Vim plugins (like e.g. ALE) can use this to analyse your code.
+IDEs and Vim plugins (like ALE) can use this to analyse your code.
 
 `.clangd` is a YAML configuration file for `clangd`. It's purpose is to tell
 `clangd` where to find the AVR system headers.
